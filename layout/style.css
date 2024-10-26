@@ -84,12 +84,15 @@ body {
     background: linear-gradient(90deg, #db5a04, #FFAB4C);
     padding-top: 20px;
     z-index: 1;
+    font-size: 14px;
+    color: white;
+    padding-left: 20px;
 }
 
 .sidebar a {
     padding: 10px 15px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 13px;
     color: white;
     display: block;
 }
@@ -109,4 +112,58 @@ body {
     border-radius: 5px;
     background-color:rgba(255, 0, 0, 0);
     border: solid 1px white;
+}
+
+/* qlnlchuoicuahang */
+.btn-detail{
+    background-color: #ec9262;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #ffffff;
+    border-bottom:1px solid   #ec9262;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color:  #ec9262;
+    color: white;
+}
+.btn-detail:hover {
+    background-color:  #ec9262;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.pagination a {
+    margin: 0 5px;
+    text-decoration: none;
+    color:  #ec9262;
+}
+.themmoi{
+    background-color:  #ec9262;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.capnhat{
+    background-color:  #ec9262;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
 }
